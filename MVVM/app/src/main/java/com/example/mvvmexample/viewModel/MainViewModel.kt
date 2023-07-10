@@ -31,15 +31,12 @@ class MainViewModel : ViewModel() {
             return
 
         text.value = ""
-        var array: ArrayList<Int> = ArrayList()
-
-        array = database.getAllNumber()
+        val array = database.getAllNumber()
 
 
         for (i in 0 until array.size) {
-            text.value += array.get(i).toString() + " "
+            text.value += array[i].toString() + " "
         }
-
         println(text)
 
     }

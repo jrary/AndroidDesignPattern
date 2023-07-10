@@ -1,0 +1,1964 @@
+Index: ../app/src/main/res/layout/activity_main.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/activity_main.xml b/../app/src/main/res/layout/activity_main.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/activity_main.xml	
++++ /dev/null	
+@@ -1,61 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout
+-    xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:app="http://schemas.android.com/apk/res-auto"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    tools:context=".MainActivity"
+-    android:orientation="vertical"
+-    >
+-
+-    <Button
+-        android:id="@+id/btn_wk3"
+-        android:layout_height="wrap_content"
+-        android:layout_width="wrap_content"
+-        android:text="week 3"
+-        />
+-    <Button
+-        android:id="@+id/btn_wk4"
+-        android:layout_height="wrap_content"
+-        android:layout_width="wrap_content"
+-        android:text="week 4"
+-        />
+-    <Button
+-        android:id="@+id/btn_wk5"
+-        android:layout_height="wrap_content"
+-        android:layout_width="wrap_content"
+-        android:text="week 5-1"
+-        />
+-    <Button
+-        android:id="@+id/btn_wk5_2"
+-        android:layout_height="wrap_content"
+-        android:layout_width="wrap_content"
+-        android:text="week 5-2"
+-        />
+-    <Button
+-        android:id="@+id/btn_wk6"
+-        android:layout_height="wrap_content"
+-        android:layout_width="wrap_content"
+-        android:text="week 6-1"
+-        />
+-    <Button
+-        android:id="@+id/btn_wk6_2"
+-        android:layout_height="wrap_content"
+-        android:layout_width="wrap_content"
+-        android:text="week 6-2"
+-        />
+-    <Button
+-        android:id="@+id/btn_wk7"
+-        android:layout_height="wrap_content"
+-        android:layout_width="wrap_content"
+-        android:text="week 7-1"
+-        />
+-    <Button
+-        android:id="@+id/btn_wk7_2"
+-        android:layout_height="wrap_content"
+-        android:layout_width="wrap_content"
+-        android:text="week 7-2"
+-        />
+-
+-</LinearLayout>
+\ No newline at end of file
+Index: ../app/src/main/res/layout/fragment_6_2_1.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/fragment_6_2_1.xml b/../app/src/main/res/layout/fragment_6_2_1.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/fragment_6_2_1.xml	
++++ /dev/null	
+@@ -1,15 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout
+-    xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:orientation="vertical"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    android:background="#00FF00"
+-    >
+-    <TextView
+-        android:id="@+id/lblFragment1"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:text="This is fragment #1"
+-        android:textSize="20sp" />
+-</LinearLayout>
+Index: ../app/src/main/res/values/strings.xml
+===================================================================
+diff --git a/../app/src/main/res/values/strings.xml b/../app/src/main/res/values/strings.xml
+deleted file mode 100644
+--- a/../app/src/main/res/values/strings.xml	
++++ /dev/null	
+@@ -1,7 +0,0 @@
+-<resources>
+-    <string name="app_name">MidtermStudy</string>
+-    <string name="sugar">Sugar</string>
+-    <string name="cream">Cream</string>
+-    <string name="coffee_addons">What else in your coffee?</string>
+-    <string name="pay">Pay</string>
+-</resources>
+Index: ../app/src/main/res/values-night/themes.xml
+===================================================================
+diff --git a/../app/src/main/res/values-night/themes.xml b/../app/src/main/res/values-night/themes.xml
+deleted file mode 100644
+--- a/../app/src/main/res/values-night/themes.xml	
++++ /dev/null	
+@@ -1,16 +0,0 @@
+-<resources xmlns:tools="http://schemas.android.com/tools">
+-    <!-- Base application theme. -->
+-    <style name="Theme.MidtermStudy" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+-        <!-- Primary brand color. -->
+-        <item name="colorPrimary">@color/purple_200</item>
+-        <item name="colorPrimaryVariant">@color/purple_700</item>
+-        <item name="colorOnPrimary">@color/black</item>
+-        <!-- Secondary brand color. -->
+-        <item name="colorSecondary">@color/teal_200</item>
+-        <item name="colorSecondaryVariant">@color/teal_200</item>
+-        <item name="colorOnSecondary">@color/black</item>
+-        <!-- Status bar color. -->
+-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+-        <!-- Customize your theme here. -->
+-    </style>
+-</resources>
+\ No newline at end of file
+Index: ../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+===================================================================
+diff --git a/../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml b/../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+deleted file mode 100644
+--- a/../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml	
++++ /dev/null	
+@@ -1,5 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+-    <background android:drawable="@drawable/ic_launcher_background" />
+-    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+-</adaptive-icon>
+\ No newline at end of file
+Index: ../gradle.properties
+===================================================================
+diff --git a/../gradle.properties b/../gradle.properties
+deleted file mode 100644
+--- a/../gradle.properties	
++++ /dev/null	
+@@ -1,21 +0,0 @@
+-# Project-wide Gradle settings.
+-# IDE (e.g. Android Studio) users:
+-# Gradle settings configured through the IDE *will override*
+-# any settings specified in this file.
+-# For more details on how to configure your build environment visit
+-# http://www.gradle.org/docs/current/userguide/build_environment.html
+-# Specifies the JVM arguments used for the daemon process.
+-# The setting is particularly useful for tweaking memory settings.
+-org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
+-# When configured, Gradle will run in incubating parallel mode.
+-# This option should only be used with decoupled projects. More details, visit
+-# http://www.gradle.org/docs/current/userguide/multi_project_builds.html#sec:decoupled_projects
+-# org.gradle.parallel=true
+-# AndroidX package structure to make it clearer which packages are bundled with the
+-# Android operating system, and which are packaged with your app's APK
+-# https://developer.android.com/topic/libraries/support-library/androidx-rn
+-android.useAndroidX=true
+-# Enables namespacing of each library's R class so that its R class includes only the
+-# resources declared in the library itself and none from the library's dependencies,
+-# thereby reducing the size of the R class for that library
+-android.nonTransitiveRClass=true
+\ No newline at end of file
+Index: ../app/src/main/java/com/midtermstudy/W7Activity.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W7Activity.java b/../app/src/main/java/com/midtermstudy/W7Activity.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W7Activity.java	
++++ /dev/null	
+@@ -1,21 +0,0 @@
+-package com.midtermstudy;
+-
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-import android.os.Bundle;
+-import android.widget.ArrayAdapter;
+-import android.widget.ListView;
+-
+-public class W7Activity extends AppCompatActivity {
+-
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_7);
+-
+-        String[] names = {"LEE", "CHOI", "KIM", "JEONG", "RHO"};
+-        ListView listView = (ListView) findViewById(R.id.listview);
+-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, names);
+-        listView.setAdapter(adapter);
+-    }
+-}
+\ No newline at end of file
+Index: ../app/src/main/res/layout/activity_6.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/activity_6.xml b/../app/src/main/res/layout/activity_6.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/activity_6.xml	
++++ /dev/null	
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    android:id="@+id/container"
+-    >
+-</FrameLayout>
+\ No newline at end of file
+Index: ../app/src/main/res/xml/backup_rules.xml
+===================================================================
+diff --git a/../app/src/main/res/xml/backup_rules.xml b/../app/src/main/res/xml/backup_rules.xml
+deleted file mode 100644
+--- a/../app/src/main/res/xml/backup_rules.xml	
++++ /dev/null	
+@@ -1,13 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?><!--
+-   Sample backup rules file; uncomment and customize as necessary.
+-   See https://developer.android.com/guide/topics/data/autobackup
+-   for details.
+-   Note: This file is ignored for devices older that API 31
+-   See https://developer.android.com/about/versions/12/backup-restore
+--->
+-<full-backup-content>
+-    <!--
+-   <include domain="sharedpref" path="."/>
+-   <exclude domain="sharedpref" path="device.xml"/>
+--->
+-</full-backup-content>
+\ No newline at end of file
+Index: ../app/src/main/java/com/midtermstudy/W7SActivity.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W7SActivity.java b/../app/src/main/java/com/midtermstudy/W7SActivity.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W7SActivity.java	
++++ /dev/null	
+@@ -1,37 +0,0 @@
+-package com.midtermstudy;
+-
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-import android.os.Bundle;
+-import android.view.View;
+-import android.widget.AdapterView;
+-import android.widget.ArrayAdapter;
+-import android.widget.ListView;
+-import android.widget.Spinner;
+-import android.widget.TextView;
+-
+-public class W7SActivity extends AppCompatActivity {
+-    TextView textView;
+-    String[] items = {"mike", "angel", "crow", "john", "ginnie", "sally", "cohen", "rice"};
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_7_2);
+-        textView = (TextView) findViewById(R.id.textView);
+-        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, items);
+-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+-        spinner.setAdapter(adapter);
+-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
+-
+-            @Override
+-            public void onItemSelected(AdapterView adapterView, View view, int position, long id){
+-                textView.setText(items[position]);
+-            }
+-            @Override
+-            public void onNothingSelected(AdapterView adapterView){
+-                textView.setText("");
+-            }
+-        });
+-    }
+-}
+\ No newline at end of file
+Index: ../app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+===================================================================
+diff --git a/../app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml b/../app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+deleted file mode 100644
+--- a/../app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml	
++++ /dev/null	
+@@ -1,5 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+-    <background android:drawable="@drawable/ic_launcher_background" />
+-    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+-</adaptive-icon>
+\ No newline at end of file
+Index: ../app/src/main/java/com/midtermstudy/W6SFragment1.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W6SFragment1.java b/../app/src/main/java/com/midtermstudy/W6SFragment1.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W6SFragment1.java	
++++ /dev/null	
+@@ -1,17 +0,0 @@
+-package com.midtermstudy;
+-
+-import android.os.Bundle;
+-import android.view.LayoutInflater;
+-import android.view.View;
+-import android.view.ViewGroup;
+-
+-import androidx.annotation.Nullable;
+-import androidx.fragment.app.Fragment;
+-
+-public class W6SFragment1 extends Fragment {
+-    @Nullable
+-    @Override
+-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+-        return inflater.inflate(R.layout.fragment_6_2_1, container, false);
+-    }
+-}
+Index: ../app/src/main/res/layout/activity_4.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/activity_4.xml b/../app/src/main/res/layout/activity_4.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/activity_4.xml	
++++ /dev/null	
+@@ -1,17 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:id="@+id/activity_main"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    android:orientation="vertical">
+-    <Button
+-        android:id="@+id/btn"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:text="새 화면 띄우기"
+-        android:layout_gravity="center"
+-        android:backgroundTint="#bbbbbb"
+-        android:textColor="#000000"
+-        />
+-
+-</LinearLayout>
+Index: ../app/src/main/AndroidManifest.xml
+===================================================================
+diff --git a/../app/src/main/AndroidManifest.xml b/../app/src/main/AndroidManifest.xml
+deleted file mode 100644
+--- a/../app/src/main/AndroidManifest.xml	
++++ /dev/null	
+@@ -1,52 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:tools="http://schemas.android.com/tools">
+-
+-    <application
+-        android:allowBackup="true"
+-        android:dataExtractionRules="@xml/data_extraction_rules"
+-        android:fullBackupContent="@xml/backup_rules"
+-        android:icon="@mipmap/ic_launcher"
+-        android:label="@string/app_name"
+-        android:supportsRtl="true"
+-        android:theme="@style/Theme.MidtermStudy"
+-        tools:targetApi="31">
+-        <activity
+-            android:name=".MainActivity"
+-            android:exported="true">
+-            <intent-filter>
+-                <action android:name="android.intent.action.MAIN" />
+-
+-                <category android:name="android.intent.category.LAUNCHER" />
+-            </intent-filter>
+-        </activity>
+-        <activity
+-            android:name=".W3Activity"
+-            />
+-        <activity
+-            android:name=".W4Activity"
+-            />
+-        <activity
+-            android:name=".W4NewActivity"
+-            />
+-        <activity
+-            android:name=".W5Activity"
+-            />
+-        <activity
+-            android:name=".W5SActivity"
+-            />
+-        <activity
+-            android:name=".W6MainActivity"
+-            />
+-        <activity
+-            android:name=".W6SActivity"
+-            />
+-        <activity
+-            android:name=".W7Activity"
+-            />
+-        <activity
+-            android:name=".W7SActivity"
+-            />
+-    </application>
+-
+-</manifest>
+\ No newline at end of file
+Index: ../app/src/main/java/com/midtermstudy/W3Activity.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W3Activity.java b/../app/src/main/java/com/midtermstudy/W3Activity.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W3Activity.java	
++++ /dev/null	
+@@ -1,53 +0,0 @@
+-package com.midtermstudy;
+-
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-import android.os.Bundle;
+-import android.view.View;
+-import android.widget.Button;
+-import android.widget.LinearLayout;
+-
+-public class W3Activity extends AppCompatActivity {
+-
+-    private View layoutLogin;
+-    private View layoutInfo;
+-    private View layoutGrade;
+-
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_3);
+-
+-        layoutLogin = (LinearLayout)findViewById(R.id.layoutLogin);
+-        layoutInfo = (LinearLayout)findViewById(R.id.layoutInfo);
+-        layoutGrade = (LinearLayout)findViewById(R.id.layoutGrade);
+-        Button btnLogin = (Button)findViewById(R.id.btnLogin);
+-        Button btnInfo = (Button)findViewById(R.id.btnInfo);
+-        Button btnGrade = (Button)findViewById(R.id.btnGrade);
+-
+-        btnLogin.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View view) {
+-                layoutLogin.setVisibility(View.VISIBLE);
+-                layoutInfo.setVisibility(View.INVISIBLE);
+-                layoutGrade.setVisibility(View.INVISIBLE);
+-            }
+-        });
+-        btnInfo.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View view) {
+-                layoutLogin.setVisibility(View.INVISIBLE);
+-                layoutInfo.setVisibility(View.VISIBLE);
+-                layoutGrade.setVisibility(View.INVISIBLE);
+-            }
+-        });
+-        btnGrade.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View view) {
+-                layoutLogin.setVisibility(View.INVISIBLE);
+-                layoutInfo.setVisibility(View.INVISIBLE);
+-                layoutGrade.setVisibility(View.VISIBLE);
+-            }
+-        });
+-    }
+-}
+\ No newline at end of file
+Index: ../app/src/main/res/layout/activity_4_new.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/activity_4_new.xml b/../app/src/main/res/layout/activity_4_new.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/activity_4_new.xml	
++++ /dev/null	
+@@ -1,17 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:id="@+id/activity_main"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    android:orientation="vertical"
+-    android:background="@android:color/holo_green_light">
+-    <Button
+-        android:id="@+id/button2"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:text="돌아가기"
+-        android:layout_gravity="center"
+-        android:backgroundTint="#bbbbbb"
+-        android:textColor="#000000"
+-        />
+-</LinearLayout>
+\ No newline at end of file
+Index: ../app/src/main/res/xml/data_extraction_rules.xml
+===================================================================
+diff --git a/../app/src/main/res/xml/data_extraction_rules.xml b/../app/src/main/res/xml/data_extraction_rules.xml
+deleted file mode 100644
+--- a/../app/src/main/res/xml/data_extraction_rules.xml	
++++ /dev/null	
+@@ -1,19 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?><!--
+-   Sample data extraction rules file; uncomment and customize as necessary.
+-   See https://developer.android.com/about/versions/12/backup-restore#xml-changes
+-   for details.
+--->
+-<data-extraction-rules>
+-    <cloud-backup>
+-        <!-- TODO: Use <include> and <exclude> to control what is backed up.
+-        <include .../>
+-        <exclude .../>
+-        -->
+-    </cloud-backup>
+-    <!--
+-    <device-transfer>
+-        <include .../>
+-        <exclude .../>
+-    </device-transfer>
+-    -->
+-</data-extraction-rules>
+\ No newline at end of file
+Index: ../app/src/test/java/com/midtermstudy/ExampleUnitTest.java
+===================================================================
+diff --git a/../app/src/test/java/com/midtermstudy/ExampleUnitTest.java b/../app/src/test/java/com/midtermstudy/ExampleUnitTest.java
+deleted file mode 100644
+--- a/../app/src/test/java/com/midtermstudy/ExampleUnitTest.java	
++++ /dev/null	
+@@ -1,17 +0,0 @@
+-package com.midtermstudy;
+-
+-import org.junit.Test;
+-
+-import static org.junit.Assert.*;
+-
+-/**
+- * Example local unit test, which will execute on the development machine (host).
+- *
+- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+- */
+-public class ExampleUnitTest {
+-    @Test
+-    public void addition_isCorrect() {
+-        assertEquals(4, 2 + 2);
+-    }
+-}
+\ No newline at end of file
+Index: ../gradle/wrapper/gradle-wrapper.properties
+===================================================================
+diff --git a/../gradle/wrapper/gradle-wrapper.properties b/../gradle/wrapper/gradle-wrapper.properties
+deleted file mode 100644
+--- a/../gradle/wrapper/gradle-wrapper.properties	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-#Fri Apr 21 23:22:38 KST 2023
+-distributionBase=GRADLE_USER_HOME
+-distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-bin.zip
+-distributionPath=wrapper/dists
+-zipStorePath=wrapper/dists
+-zipStoreBase=GRADLE_USER_HOME
+Index: ../app/src/main/java/com/midtermstudy/W4Activity.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W4Activity.java b/../app/src/main/java/com/midtermstudy/W4Activity.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W4Activity.java	
++++ /dev/null	
+@@ -1,37 +0,0 @@
+-package com.midtermstudy;
+-
+-import android.content.Intent;
+-import android.net.Uri;
+-import android.os.Bundle;
+-import android.view.View;
+-import android.widget.Button;
+-import android.widget.LinearLayout;
+-import android.widget.Toast;
+-
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-public class W4Activity extends AppCompatActivity {
+-    LinearLayout container;
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_4);
+-
+-        Button btn = findViewById(R.id.btn);
+-
+-        btn.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View view) {
+-                Intent intent = new Intent(getApplicationContext(), W4NewActivity.class);
+-                startActivityForResult(intent, 1);
+-            }
+-        });
+-    }
+-
+-    @Override
+-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+-        super.onActivityResult(requestCode, resultCode, data);
+-        String outName = data.getStringExtra("name");
+-        Toast.makeText(this, "전달받은 name 속성의 값: "+outName, Toast.LENGTH_LONG).show();
+-    }
+-}
+\ No newline at end of file
+Index: ../app/src/main/res/layout/activity_5_2.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/activity_5_2.xml b/../app/src/main/res/layout/activity_5_2.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/activity_5_2.xml	
++++ /dev/null	
+@@ -1,42 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout
+-    xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:app="http://schemas.android.com/apk/res-auto"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    android:padding="6dp"
+-    android:orientation="vertical"
+-    tools:context=".MainActivity">
+-
+-    <TextView
+-        android:id="@+id/labelCoffee"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:background="#ff993300"
+-        android:text="@string/coffee_addons"
+-        android:textColor="@android:color/white"
+-        android:textStyle="bold" />
+-    <CheckBox
+-        android:id="@+id/chkCream"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:text="@string/cream"
+-        android:textStyle="bold" />
+-    <CheckBox
+-        android:id="@+id/chkSugar"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:text="@string/sugar"
+-        android:textStyle="bold" />
+-    <Button
+-        android:id="@+id/btnPay"
+-        android:layout_width="153dp"
+-        android:layout_height="wrap_content"
+-        android:text="@string/pay"
+-        android:textStyle="bold"
+-        android:backgroundTint="#bdbdbd"
+-        android:textColor="#000000"
+-        />
+-
+-</LinearLayout>
+\ No newline at end of file
+Index: ../app/src/main/res/values/themes.xml
+===================================================================
+diff --git a/../app/src/main/res/values/themes.xml b/../app/src/main/res/values/themes.xml
+deleted file mode 100644
+--- a/../app/src/main/res/values/themes.xml	
++++ /dev/null	
+@@ -1,16 +0,0 @@
+-<resources xmlns:tools="http://schemas.android.com/tools">
+-    <!-- Base application theme. -->
+-    <style name="Theme.MidtermStudy" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+-        <!-- Primary brand color. -->
+-        <item name="colorPrimary">@color/purple_500</item>
+-        <item name="colorPrimaryVariant">@color/purple_700</item>
+-        <item name="colorOnPrimary">@color/white</item>
+-        <!-- Secondary brand color. -->
+-        <item name="colorSecondary">@color/teal_200</item>
+-        <item name="colorSecondaryVariant">@color/teal_700</item>
+-        <item name="colorOnSecondary">@color/black</item>
+-        <!-- Status bar color. -->
+-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+-        <!-- Customize your theme here. -->
+-    </style>
+-</resources>
+\ No newline at end of file
+Index: ../app/src/main/java/com/midtermstudy/W5Activity.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W5Activity.java b/../app/src/main/java/com/midtermstudy/W5Activity.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W5Activity.java	
++++ /dev/null	
+@@ -1,42 +0,0 @@
+-package com.midtermstudy;
+-
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-import android.content.Context;
+-import android.os.Bundle;
+-import android.view.View;
+-import android.widget.Button;
+-import android.widget.EditText;
+-import android.widget.TextView;
+-import android.widget.Toast;
+-
+-public class W5Activity extends AppCompatActivity {
+-    TextView labelUserName;
+-    EditText txtUserName;
+-    Button btnBegin;
+-    private Context context;
+-    private int duration = Toast.LENGTH_LONG;
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_5);
+-
+-        context = getApplicationContext();
+-        labelUserName=findViewById(R.id.textView1);
+-        txtUserName=findViewById(R.id.txtUserName);
+-        btnBegin=findViewById(R.id.button1);
+-
+-        btnBegin.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View v) {
+-                String userName = txtUserName.getText().toString();
+-                if(userName.compareTo("Dahyeon Lee")==0){
+-                    labelUserName.setText("OK, Please wait..");
+-                    Toast.makeText(context, "Hi!, Prof."+userName, duration).show();
+-                } else{
+-                    Toast.makeText(context, userName+ " is not a valid User", duration).show();
+-                }
+-            }
+-        });
+-    }
+-}
+\ No newline at end of file
+Index: ../app/src/main/res/layout/fragment_6_main.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/fragment_6_main.xml b/../app/src/main/res/layout/fragment_6_main.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/fragment_6_main.xml	
++++ /dev/null	
+@@ -1,19 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:orientation="vertical"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent">
+-    <TextView
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:text="Main Fragment"
+-        android:id="@+id/textView"
+-        android:textSize="30dp" />
+-    <Button
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:text="Return to Menu"
+-        android:id="@+id/button"
+-        android:backgroundTint="#bdbdbd"
+-        android:textColor="#000000"/>
+-</LinearLayout>
+\ No newline at end of file
+Index: ../app/src/main/java/com/midtermstudy/W6SActivity.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W6SActivity.java b/../app/src/main/java/com/midtermstudy/W6SActivity.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W6SActivity.java	
++++ /dev/null	
+@@ -1,14 +0,0 @@
+-package com.midtermstudy;
+-
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-import android.os.Bundle;
+-
+-public class W6SActivity extends AppCompatActivity {
+-
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_6_2);
+-    }
+-}
+\ No newline at end of file
+Index: ../app/src/main/res/layout/activity_5.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/activity_5.xml b/../app/src/main/res/layout/activity_5.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/activity_5.xml	
++++ /dev/null	
+@@ -1,35 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout
+-    xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:app="http://schemas.android.com/apk/res-auto"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    android:background="#886495ed"
+-    android:orientation="vertical"
+-    tools:context=".MainActivity">
+-
+-    <TextView
+-        android:id="@+id/textView1"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="1dp"
+-        android:background="#ffffff00"
+-        android:text="login" />
+-    <EditText
+-        android:id="@+id/txtUserName"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="1dp"
+-        android:hint="Enter your First and Last name"
+-        android:textSize="18sp" />
+-    <Button
+-        android:id="@+id/button1"
+-        android:layout_width="82dp"
+-        android:layout_height="wrap_content"
+-        android:layout_marginTop="1dp"
+-        android:backgroundTint="#bdbdbd"
+-        android:textColor="#000000"
+-        android:text="login" />
+-
+-</LinearLayout>
+\ No newline at end of file
+Index: ../app/src/main/res/layout/activity_7_2.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/activity_7_2.xml b/../app/src/main/res/layout/activity_7_2.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/activity_7_2.xml	
++++ /dev/null	
+@@ -1,16 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:id="@+id/activity_main"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    android:orientation="vertical">
+-    <TextView
+-        android:id="@+id/textView"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"/>
+-    <Spinner
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:id="@+id/spinner"/>
+-</LinearLayout>
+Index: ../app/src/main/java/com/midtermstudy/MainActivity.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/MainActivity.java b/../app/src/main/java/com/midtermstudy/MainActivity.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/MainActivity.java	
++++ /dev/null	
+@@ -1,84 +0,0 @@
+-package com.midtermstudy;
+-
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-import android.content.Intent;
+-import android.os.Bundle;
+-import android.view.View;
+-import android.widget.Button;
+-
+-public class MainActivity extends AppCompatActivity {
+-
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_main);
+-
+-
+-        Button btn3 = findViewById(R.id.btn_wk3);
+-        Button btn4 = findViewById(R.id.btn_wk4);
+-        Button btn51 = findViewById(R.id.btn_wk5);
+-        Button btn52 = findViewById(R.id.btn_wk5_2);
+-        Button btn61 = findViewById(R.id.btn_wk6);
+-        Button btn62 = findViewById(R.id.btn_wk6_2);
+-        Button btn71 = findViewById(R.id.btn_wk7);
+-        Button btn72 = findViewById(R.id.btn_wk7_2);
+-
+-        btn3.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View view) {
+-                Intent intent = new Intent(getApplicationContext(), W3Activity.class);
+-                startActivityForResult(intent, 1);
+-            }
+-        });
+-        btn4.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View view) {
+-                Intent intent = new Intent(getApplicationContext(), W4Activity.class);
+-                startActivityForResult(intent, 1);
+-            }
+-        });
+-        btn51.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View view) {
+-                Intent intent = new Intent(getApplicationContext(), W5Activity.class);
+-                startActivityForResult(intent, 1);
+-            }
+-        });
+-        btn52.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View view) {
+-                Intent intent = new Intent(getApplicationContext(), W5SActivity.class);
+-                startActivityForResult(intent, 1);
+-            }
+-        });
+-        btn61.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View view) {
+-                Intent intent = new Intent(getApplicationContext(), W6MainActivity.class);
+-                startActivityForResult(intent, 1);
+-            }
+-        });
+-        btn62.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View view) {
+-                Intent intent = new Intent(getApplicationContext(), W6SActivity.class);
+-                startActivityForResult(intent, 1);
+-            }
+-        });
+-        btn71.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View view) {
+-                Intent intent = new Intent(getApplicationContext(), W7Activity.class);
+-                startActivityForResult(intent, 1);
+-            }
+-        });
+-        btn72.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View view) {
+-                Intent intent = new Intent(getApplicationContext(), W7SActivity.class);
+-                startActivityForResult(intent, 1);
+-            }
+-        });
+-    }
+-}
+\ No newline at end of file
+Index: ../app/build.gradle
+===================================================================
+diff --git a/../app/build.gradle b/../app/build.gradle
+deleted file mode 100644
+--- a/../app/build.gradle	
++++ /dev/null	
+@@ -1,39 +0,0 @@
+-plugins {
+-    id 'com.android.application'
+-}
+-
+-android {
+-    namespace 'com.midtermstudy'
+-    compileSdk 33
+-
+-    defaultConfig {
+-        applicationId "com.midtermstudy"
+-        minSdk 24
+-        targetSdk 33
+-        versionCode 1
+-        versionName "1.0"
+-
+-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+-    }
+-
+-    buildTypes {
+-        release {
+-            minifyEnabled false
+-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+-        }
+-    }
+-    compileOptions {
+-        sourceCompatibility JavaVersion.VERSION_1_8
+-        targetCompatibility JavaVersion.VERSION_1_8
+-    }
+-}
+-
+-dependencies {
+-
+-    implementation 'androidx.appcompat:appcompat:1.6.1'
+-    implementation 'com.google.android.material:material:1.8.0'
+-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+-    testImplementation 'junit:junit:4.13.2'
+-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+-}
+\ No newline at end of file
+Index: ../app/src/androidTest/java/com/midtermstudy/ExampleInstrumentedTest.java
+===================================================================
+diff --git a/../app/src/androidTest/java/com/midtermstudy/ExampleInstrumentedTest.java b/../app/src/androidTest/java/com/midtermstudy/ExampleInstrumentedTest.java
+deleted file mode 100644
+--- a/../app/src/androidTest/java/com/midtermstudy/ExampleInstrumentedTest.java	
++++ /dev/null	
+@@ -1,26 +0,0 @@
+-package com.midtermstudy;
+-
+-import android.content.Context;
+-
+-import androidx.test.platform.app.InstrumentationRegistry;
+-import androidx.test.ext.junit.runners.AndroidJUnit4;
+-
+-import org.junit.Test;
+-import org.junit.runner.RunWith;
+-
+-import static org.junit.Assert.*;
+-
+-/**
+- * Instrumented test, which will execute on an Android device.
+- *
+- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+- */
+-@RunWith(AndroidJUnit4.class)
+-public class ExampleInstrumentedTest {
+-    @Test
+-    public void useAppContext() {
+-        // Context of the app under test.
+-        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+-        assertEquals("com.midtermstudy", appContext.getPackageName());
+-    }
+-}
+\ No newline at end of file
+Index: ../build.gradle
+===================================================================
+diff --git a/../build.gradle b/../build.gradle
+deleted file mode 100644
+--- a/../build.gradle	
++++ /dev/null	
+@@ -1,5 +0,0 @@
+-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+-plugins {
+-    id 'com.android.application' version '7.4.2' apply false
+-    id 'com.android.library' version '7.4.2' apply false
+-}
+\ No newline at end of file
+Index: ../app/src/main/java/com/midtermstudy/W6MainActivity.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W6MainActivity.java b/../app/src/main/java/com/midtermstudy/W6MainActivity.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W6MainActivity.java	
++++ /dev/null	
+@@ -1,29 +0,0 @@
+-package com.midtermstudy;
+-
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-import android.os.Bundle;
+-
+-public class W6MainActivity extends AppCompatActivity {
+-    W6MainFragment mainFragment;
+-    W6MenuFragment menuFragment;
+-
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_6);
+-
+-        mainFragment = new W6MainFragment();
+-        getSupportFragmentManager().beginTransaction().replace(R.id.container, mainFragment).commit();
+-        menuFragment = new W6MenuFragment();
+-    }
+-
+-    public void  onFragmentChanged(int index){
+-        if(index == 0){
+-            getSupportFragmentManager().beginTransaction().replace(R.id.container, menuFragment).commit();
+-        }
+-        else if(index == 1){
+-            getSupportFragmentManager().beginTransaction().replace(R.id.container, mainFragment).commit();
+-        }
+-    }
+-}
+\ No newline at end of file
+Index: ../app/proguard-rules.pro
+===================================================================
+diff --git a/../app/proguard-rules.pro b/../app/proguard-rules.pro
+deleted file mode 100644
+--- a/../app/proguard-rules.pro	
++++ /dev/null	
+@@ -1,21 +0,0 @@
+-# Add project specific ProGuard rules here.
+-# You can control the set of applied configuration files using the
+-# proguardFiles setting in build.gradle.
+-#
+-# For more details, see
+-#   http://developer.android.com/guide/developing/tools/proguard.html
+-
+-# If your project uses WebView with JS, uncomment the following
+-# and specify the fully qualified class name to the JavaScript interface
+-# class:
+-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+-#   public *;
+-#}
+-
+-# Uncomment this to preserve the line number information for
+-# debugging stack traces.
+-#-keepattributes SourceFile,LineNumberTable
+-
+-# If you keep the line number information, uncomment this to
+-# hide the original source file name.
+-#-renamesourcefileattribute SourceFile
+\ No newline at end of file
+Index: ../app/src/main/res/values/colors.xml
+===================================================================
+diff --git a/../app/src/main/res/values/colors.xml b/../app/src/main/res/values/colors.xml
+deleted file mode 100644
+--- a/../app/src/main/res/values/colors.xml	
++++ /dev/null	
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<resources>
+-    <color name="purple_200">#FFBB86FC</color>
+-    <color name="purple_500">#FF6200EE</color>
+-    <color name="purple_700">#FF3700B3</color>
+-    <color name="teal_200">#FF03DAC5</color>
+-    <color name="teal_700">#FF018786</color>
+-    <color name="black">#FF000000</color>
+-    <color name="white">#FFFFFFFF</color>
+-</resources>
+\ No newline at end of file
+Index: ../app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml
+===================================================================
+diff --git a/../app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml b/../app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml
+deleted file mode 100644
+--- a/../app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+-    <background android:drawable="@drawable/ic_launcher_background" />
+-    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+-    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
+-</adaptive-icon>
+\ No newline at end of file
+Index: ../app/src/main/java/com/midtermstudy/W6MenuFragment.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W6MenuFragment.java b/../app/src/main/java/com/midtermstudy/W6MenuFragment.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W6MenuFragment.java	
++++ /dev/null	
+@@ -1,31 +0,0 @@
+-package com.midtermstudy;
+-
+-import android.os.Bundle;
+-import android.view.LayoutInflater;
+-import android.view.View;
+-import android.view.ViewGroup;
+-import android.widget.Button;
+-
+-import androidx.annotation.Nullable;
+-import androidx.fragment.app.Fragment;
+-
+-import com.midtermstudy.MainActivity;
+-
+-public class W6MenuFragment extends Fragment {
+-    @Nullable
+-    @Override
+-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
+-        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment_6_menu, container, false);
+-
+-        Button button = (Button) rootView.findViewById(R.id.button);
+-        button.setOnClickListener(new View.OnClickListener(){
+-            @Override
+-            public void onClick(View v){
+-                W6MainActivity activity = (W6MainActivity) getActivity();
+-                activity.onFragmentChanged(1);
+-            }
+-        });
+-
+-        return rootView;
+-    }
+-}
+Index: ../app/src/main/res/layout/activity_7.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/activity_7.xml b/../app/src/main/res/layout/activity_7.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/activity_7.xml	
++++ /dev/null	
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:id="@+id/activity_main"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent" >
+-    <ListView
+-        android:id="@+id/listview"
+-        android:layout_width="match_parent"
+-        android:layout_height="match_parent"/>
+-</LinearLayout>
+\ No newline at end of file
+Index: ../app/src/main/java/com/midtermstudy/W6MainFragment.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W6MainFragment.java b/../app/src/main/java/com/midtermstudy/W6MainFragment.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W6MainFragment.java	
++++ /dev/null	
+@@ -1,31 +0,0 @@
+-package com.midtermstudy;
+-
+-import android.os.Bundle;
+-import android.view.LayoutInflater;
+-import android.view.View;
+-import android.view.ViewGroup;
+-import android.widget.Button;
+-
+-import androidx.annotation.Nullable;
+-import androidx.fragment.app.Fragment;
+-
+-import com.midtermstudy.MainActivity;
+-
+-public class W6MainFragment extends Fragment {
+-    @Nullable
+-    @Override
+-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
+-        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment_6_main, container, false);
+-
+-        Button button = (Button) rootView.findViewById(R.id.button);
+-        button.setOnClickListener(new View.OnClickListener(){
+-            @Override
+-            public void onClick(View v){
+-                W6MainActivity activity = (W6MainActivity) getActivity();
+-                activity.onFragmentChanged(0);
+-            }
+-        });
+-
+-        return rootView;
+-    }
+-}
+Index: ../app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+===================================================================
+diff --git a/../app/src/main/res/drawable-v24/ic_launcher_foreground.xml b/../app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+deleted file mode 100644
+--- a/../app/src/main/res/drawable-v24/ic_launcher_foreground.xml	
++++ /dev/null	
+@@ -1,30 +0,0 @@
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:aapt="http://schemas.android.com/aapt"
+-    android:width="108dp"
+-    android:height="108dp"
+-    android:viewportWidth="108"
+-    android:viewportHeight="108">
+-    <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">
+-        <aapt:attr name="android:fillColor">
+-            <gradient
+-                android:endX="85.84757"
+-                android:endY="92.4963"
+-                android:startX="42.9492"
+-                android:startY="49.59793"
+-                android:type="linear">
+-                <item
+-                    android:color="#44000000"
+-                    android:offset="0.0" />
+-                <item
+-                    android:color="#00000000"
+-                    android:offset="1.0" />
+-            </gradient>
+-        </aapt:attr>
+-    </path>
+-    <path
+-        android:fillColor="#FFFFFF"
+-        android:fillType="nonZero"
+-        android:pathData="M65.3,45.828l3.8,-6.6c0.2,-0.4 0.1,-0.9 -0.3,-1.1c-0.4,-0.2 -0.9,-0.1 -1.1,0.3l-3.9,6.7c-6.3,-2.8 -13.4,-2.8 -19.7,0l-3.9,-6.7c-0.2,-0.4 -0.7,-0.5 -1.1,-0.3C38.8,38.328 38.7,38.828 38.9,39.228l3.8,6.6C36.2,49.428 31.7,56.028 31,63.928h46C76.3,56.028 71.8,49.428 65.3,45.828zM43.4,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2c-0.3,-0.7 -0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C45.3,56.528 44.5,57.328 43.4,57.328L43.4,57.328zM64.6,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2s-0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C66.5,56.528 65.6,57.328 64.6,57.328L64.6,57.328z"
+-        android:strokeWidth="1"
+-        android:strokeColor="#00000000" />
+-</vector>
+\ No newline at end of file
+Index: ../app/src/main/java/com/midtermstudy/W5SActivity.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W5SActivity.java b/../app/src/main/java/com/midtermstudy/W5SActivity.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W5SActivity.java	
++++ /dev/null	
+@@ -1,39 +0,0 @@
+-package com.midtermstudy;
+-
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-import android.os.Bundle;
+-import android.view.View;
+-import android.widget.Button;
+-import android.widget.CheckBox;
+-import android.widget.Toast;
+-
+-public class W5SActivity extends AppCompatActivity {
+-    CheckBox chkCream;
+-    CheckBox chkSugar;
+-    Button btnPay;
+-
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_5_2);
+-
+-        chkCream = findViewById(R.id.chkCream);
+-        chkSugar = findViewById(R.id.chkSugar);
+-        btnPay = findViewById(R.id.btnPay);
+-
+-        btnPay.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View v) {
+-                String msg = "Coffee ";
+-                if (chkCream.isChecked()){
+-                    msg += " & Cream ";
+-                }
+-                if (chkSugar.isChecked()){
+-                    msg += " & Sugar";
+-                }
+-                Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
+-            }
+-        });
+-    }
+-}
+\ No newline at end of file
+Index: ../app/src/main/res/layout/fragment_6_2_2.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/fragment_6_2_2.xml b/../app/src/main/res/layout/fragment_6_2_2.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/fragment_6_2_2.xml	
++++ /dev/null	
+@@ -1,22 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout
+-    xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:orientation="vertical"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    android:background="#FFFE00"
+-    >
+-    <TextView
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:text="This is fragment #2"
+-        android:textSize="20sp" />
+-    <Button
+-        android:id="@+id/btnGetText"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:text="Get text in Fragment #1"
+-        android:onClick="onClick"
+-        android:backgroundTint="#bdbdbd"
+-        android:textColor="#000000"/>
+-</LinearLayout>
+Index: ../README.md
+===================================================================
+diff --git a/../README.md b/../README.md
+deleted file mode 100644
+--- a/../README.md	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-# MPStudy
+\ No newline at end of file
+Index: ../app/src/main/java/com/midtermstudy/W4NewActivity.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W4NewActivity.java b/../app/src/main/java/com/midtermstudy/W4NewActivity.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W4NewActivity.java	
++++ /dev/null	
+@@ -1,26 +0,0 @@
+-package com.midtermstudy;
+-import android.content.Intent;
+-import android.os.Bundle;
+-import android.view.View;
+-import android.widget.Button;
+-import android.widget.Toast;
+-
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-public class W4NewActivity extends AppCompatActivity {
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_4_new);
+-        Button button = findViewById(R.id.button2);
+-        button.setOnClickListener(new View.OnClickListener() {
+-            @Override
+-            public void onClick(View v) {
+-                Intent intent = new Intent();
+-                intent.putExtra("name", "Da hyeon");
+-                setResult(RESULT_OK, intent);
+-                finish();
+-            }
+-        });
+-    }
+-}
+\ No newline at end of file
+Index: ../app/src/main/res/layout/fragment_6_menu.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/fragment_6_menu.xml b/../app/src/main/res/layout/fragment_6_menu.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/fragment_6_menu.xml	
++++ /dev/null	
+@@ -1,20 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:orientation="vertical"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    android:background="#E8AC6B">
+-    <TextView
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:text="Menu Fragment"
+-        android:id="@+id/textView"
+-        android:textSize="30dp" />
+-    <Button
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:text="Return to Main"
+-        android:id="@+id/button"
+-        android:backgroundTint="#bdbdbd"
+-        android:textColor="#000000"/>
+-</LinearLayout>
+\ No newline at end of file
+Index: ../app/src/main/res/layout/activity_3.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/activity_3.xml b/../app/src/main/res/layout/activity_3.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/activity_3.xml	
++++ /dev/null	
+@@ -1,283 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout
+-    xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:app="http://schemas.android.com/apk/res-auto"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    tools:context=".MainActivity"
+-    android:orientation="vertical">
+-    <LinearLayout
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:orientation="horizontal"
+-        >
+-        <Button
+-            android:id="@+id/btnLogin"
+-            android:backgroundTint="#bebebe"
+-            android:textColor="#000000"
+-            android:layout_margin="5dp"
+-            android:layout_width="wrap_content"
+-            android:layout_height="wrap_content"
+-            android:layout_weight="1"
+-            android:text="로그인"
+-            />
+-        <Button
+-            android:id="@+id/btnInfo"
+-            android:backgroundTint="#bebebe"
+-            android:textColor="#000000"
+-            android:layout_margin="5dp"
+-            android:layout_width="wrap_content"
+-            android:layout_height="wrap_content"
+-            android:layout_weight="1"
+-            android:text="인적사항"
+-            />
+-        <Button
+-            android:id="@+id/btnGrade"
+-            android:backgroundTint="#bebebe"
+-            android:textColor="#000000"
+-            android:layout_margin="5dp"
+-            android:layout_width="wrap_content"
+-            android:layout_height="wrap_content"
+-            android:layout_weight="1"
+-            android:text="학점"
+-            />
+-    </LinearLayout>
+-    <FrameLayout
+-        android:layout_width="match_parent"
+-        android:layout_height="match_parent"
+-        >
+-
+-        <LinearLayout
+-            android:id="@+id/layoutLogin"
+-            android:layout_width="match_parent"
+-            android:layout_height="match_parent"
+-            android:background="#29AF8F"
+-            android:orientation="vertical"
+-            android:visibility="visible">
+-
+-            <EditText
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                android:layout_marginTop="10dp"
+-                android:layout_marginStart="20dp"
+-                android:layout_marginEnd="20dp"
+-                android:background="#ffffff"
+-                android:textColor="#bfbfbf"
+-                android:padding="10dp"
+-                android:text="아이디를 입력하세요" />
+-
+-            <EditText
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                android:layout_marginTop="10dp"
+-                android:layout_marginStart="20dp"
+-                android:layout_marginEnd="20dp"
+-                android:background="#ffffff"
+-                android:textColor="#bfbfbf"
+-                android:padding="10dp"
+-                android:text="비밀번호를 입력하세요" />
+-
+-            <Button
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                android:layout_marginStart="20dp"
+-                android:layout_marginTop="30dp"
+-                android:layout_marginEnd="20dp"
+-                android:backgroundTint="#E74E85"
+-                android:padding="15dp"
+-                android:text="로그인" />
+-
+-            <Button
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                android:layout_marginStart="20dp"
+-                android:layout_marginTop="10dp"
+-                android:layout_marginEnd="20dp"
+-                android:backgroundTint="#E74E85"
+-                android:padding="15dp"
+-                android:text="회원가입" />
+-        </LinearLayout>
+-        <LinearLayout
+-            android:id="@+id/layoutInfo"
+-            android:layout_width="match_parent"
+-            android:layout_height="match_parent"
+-            android:orientation="horizontal"
+-            android:visibility="gone">
+-            <ScrollView
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                >
+-                <LinearLayout
+-                    android:layout_width="match_parent"
+-                    android:layout_height="match_parent"
+-                    android:orientation="vertical"
+-                    >
+-                    <ImageView
+-                        android:layout_width="match_parent"
+-                        android:layout_height="wrap_content"
+-                        android:padding="30dp"
+-                        android:src="@drawable/ic_launcher_foreground" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:text="이름:이다현" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:text="학과:소프트웨어학과" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:text="학년: 3" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:text="학교: 가천대학교" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:text="이수학점:100" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:text="평균학점: 1.0" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:text="이메일: mobileprogramming@gachon.ac.kr" />
+-
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:text="전화번호: 010-0000-0000" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:text="주소: 경기도 성남시 수정구 성남대로 1342" />
+-                </LinearLayout>
+-            </ScrollView>
+-        </LinearLayout>
+-        <LinearLayout
+-            android:id="@+id/layoutGrade"
+-            android:layout_width="match_parent"
+-            android:layout_height="match_parent"
+-            android:background="#3F52B2"
+-            android:orientation="horizontal"
+-            android:visibility="gone">
+-            <TableLayout
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                android:background="#000000"
+-                >
+-                <TableRow>
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:gravity="center"
+-                        android:layout_weight="2"
+-                        android:textColor="#000000"
+-                        android:background="#888888"
+-                        android:layout_margin="0.5dp"
+-                        android:text="과목" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:gravity="center"
+-                        android:layout_weight="1"
+-                        android:textColor="#000000"
+-                        android:background="#888888"
+-                        android:layout_margin="0.5dp"
+-                        android:text="점수" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:gravity="center"
+-                        android:layout_weight="1"
+-                        android:textColor="#000000"
+-                        android:background="#888888"
+-                        android:layout_margin="0.5dp"
+-                        android:text="학점" />
+-                </TableRow>
+-                <TableRow>
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:gravity="center"
+-                        android:layout_weight="2"
+-                        android:background="#ffffff"
+-                        android:layout_margin="0.5dp"
+-                        android:text="모바일프로그래밍" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:gravity="center"
+-                        android:layout_weight="1"
+-                        android:background="#ffffff"
+-                        android:layout_margin="0.5dp"
+-                        android:text="A+" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:gravity="center"
+-                        android:layout_weight="1"
+-                        android:background="#ffffff"
+-                        android:layout_margin="0.5dp"
+-                        android:text="3" />
+-                </TableRow>
+-                <TableRow>
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:gravity="center"
+-                        android:layout_weight="2"
+-                        android:background="#ffffff"
+-                        android:layout_margin="0.5dp"
+-                        android:text="데이터과학" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:gravity="center"
+-                        android:layout_weight="1"
+-                        android:background="#ffffff"
+-                        android:layout_margin="0.5dp"
+-                        android:text="A+" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:gravity="center"
+-                        android:layout_weight="1"
+-                        android:background="#ffffff"
+-                        android:layout_margin="0.5dp"
+-                        android:text="3" />
+-                </TableRow>
+-                <TableRow>
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:gravity="center"
+-                        android:layout_weight="2"
+-                        android:background="#ffffff"
+-                        android:layout_margin="0.5dp"
+-                        android:text="소프트웨어공학" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:gravity="center"
+-                        android:layout_weight="1"
+-                        android:background="#ffffff"
+-                        android:layout_margin="0.5dp"
+-                        android:text="B+" />
+-                    <TextView
+-                        android:layout_width="wrap_content"
+-                        android:layout_height="wrap_content"
+-                        android:gravity="center"
+-                        android:layout_weight="1"
+-                        android:background="#ffffff"
+-                        android:layout_margin="0.5dp"
+-                        android:text="3" />
+-                </TableRow>
+-            </TableLayout>
+-        </LinearLayout>
+-    </FrameLayout>
+-</LinearLayout>
+\ No newline at end of file
+Index: ../app/.gitignore
+===================================================================
+diff --git a/../app/.gitignore b/../app/.gitignore
+deleted file mode 100644
+--- a/../app/.gitignore	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-/build
+\ No newline at end of file
+Index: ../app/src/main/res/drawable/ic_launcher_background.xml
+===================================================================
+diff --git a/../app/src/main/res/drawable/ic_launcher_background.xml b/../app/src/main/res/drawable/ic_launcher_background.xml
+deleted file mode 100644
+--- a/../app/src/main/res/drawable/ic_launcher_background.xml	
++++ /dev/null	
+@@ -1,170 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="108dp"
+-    android:height="108dp"
+-    android:viewportWidth="108"
+-    android:viewportHeight="108">
+-    <path
+-        android:fillColor="#3DDC84"
+-        android:pathData="M0,0h108v108h-108z" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M9,0L9,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,0L19,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M29,0L29,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M39,0L39,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M49,0L49,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M59,0L59,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M69,0L69,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M79,0L79,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M89,0L89,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M99,0L99,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,9L108,9"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,19L108,19"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,29L108,29"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,39L108,39"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,49L108,49"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,59L108,59"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,69L108,69"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,79L108,79"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,89L108,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,99L108,99"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,29L89,29"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,39L89,39"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,49L89,49"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,59L89,59"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,69L89,69"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,79L89,79"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M29,19L29,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M39,19L39,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M49,19L49,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M59,19L59,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M69,19L69,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M79,19L79,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-</vector>
+Index: ../app/src/main/res/layout/activity_6_2.xml
+===================================================================
+diff --git a/../app/src/main/res/layout/activity_6_2.xml b/../app/src/main/res/layout/activity_6_2.xml
+deleted file mode 100644
+--- a/../app/src/main/res/layout/activity_6_2.xml	
++++ /dev/null	
+@@ -1,18 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    android:orientation="horizontal" >
+-    <fragment
+-        android:name="com.midtermstudy.W6SFragment1"
+-        android:id="@+id/fragment1"
+-        android:layout_weight="1"
+-        android:layout_width="match_parent"
+-        android:layout_height="match_parent" />
+-    <fragment
+-        android:name="com.midtermstudy.W6SFragment2"
+-        android:id="@+id/fragment2"
+-        android:layout_weight="1"
+-        android:layout_width="match_parent"
+-        android:layout_height="match_parent" />
+-</LinearLayout>
+Index: ../app/src/main/java/com/midtermstudy/W6SFragment2.java
+===================================================================
+diff --git a/../app/src/main/java/com/midtermstudy/W6SFragment2.java b/../app/src/main/java/com/midtermstudy/W6SFragment2.java
+deleted file mode 100644
+--- a/../app/src/main/java/com/midtermstudy/W6SFragment2.java	
++++ /dev/null	
+@@ -1,31 +0,0 @@
+-package com.midtermstudy;
+-
+-import android.os.Bundle;
+-import android.view.LayoutInflater;
+-import android.view.View;
+-import android.view.ViewGroup;
+-import android.widget.Button;
+-import android.widget.TextView;
+-import android.widget.Toast;
+-
+-import androidx.annotation.Nullable;
+-import androidx.fragment.app.Fragment;
+-
+-public class W6SFragment2 extends Fragment {
+-    @Nullable
+-    @Override
+-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+-        return inflater.inflate(R.layout.fragment_6_2_2, container, false);
+-    }
+-    @Override
+-    public void onStart() {
+-        super.onStart();
+-        Button btnGetText = getActivity().findViewById(R.id.btnGetText);
+-        btnGetText.setOnClickListener(new View.OnClickListener() {
+-            public void onClick(View v) {
+-                TextView lbl = getActivity().findViewById(R.id.lblFragment1);
+-                Toast.makeText(getActivity(), lbl.getText(), Toast.LENGTH_SHORT).show();
+-            }
+-        });
+-    }
+-}
+\ No newline at end of file
+Index: ../settings.gradle
+===================================================================
+diff --git a/../settings.gradle b/../settings.gradle
+deleted file mode 100644
+--- a/../settings.gradle	
++++ /dev/null	
+@@ -1,16 +0,0 @@
+-pluginManagement {
+-    repositories {
+-        google()
+-        mavenCentral()
+-        gradlePluginPortal()
+-    }
+-}
+-dependencyResolutionManagement {
+-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+-    repositories {
+-        google()
+-        mavenCentral()
+-    }
+-}
+-rootProject.name = "MidtermStudy"
+-include ':app'
